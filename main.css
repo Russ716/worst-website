@@ -22,8 +22,10 @@ body {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    gap: 50px 100px
 
 }
 
@@ -37,8 +39,7 @@ body {
     border-radius: 1.8em 1.5em 1.7em 0.9;
     cursor: crosshair;
     transition: box-shadow .2s;
-
-}
+    }
 
 .btn:hover {
     transform: translateY(-333px);
