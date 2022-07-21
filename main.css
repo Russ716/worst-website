@@ -1,14 +1,13 @@
 body {
     margin: auto 0;
     padding: auto 0;
-    /* background-color:#ffb946 */
-    background: rgb(186, 170, 12);
-        background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%);
+    background-color: yellow;
+    
 }
 
 .main-container {
     display: grid;
-    grid-template-columns: repeat(20, 100px);
+    grid-template-columns: repeat(20, 200px);
     grid-template-rows: repeat(300, 150px);
     grid-row-gap: 4px;
     grid-column-gap: 3px;
@@ -16,9 +15,29 @@ body {
 
 header {
     background: rgb(186, 170, 12);
-        background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%);
+    background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%);
+    width: 100%;
+    border-bottom: 3px solid red;
+}
+
+.do-not-look    {
+    background-color: black;
+    color: white;
+    width: 900px;
+}
+
+heder img {
+    display: flex;
+    justify-content: flex-start;
 }
 
 div {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
+}
+
+.nothing {
+    height: 100vh;
+    background: yellow;
+    color: black;
+    font-size: 5rem;
 }
