@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./main.css">
+        <link rel="stylesheet" href="./carly.css">
+        <script src="https://www.youtube.com/watch?v=QzIeaX0v1C4"></script>
     </head>
     <body>
-        <main>
-            <button class="button"><mark>Next Stop: Jump - jump - jump around!</mark></button>
-        </main>
+        <button class="button"><mark>Next Stop: Jump - jump - jump around!</mark></button>
+        <ul class="nav">
+            <audio id="jump" preload="auto">
+                <source src="https://www.youtube.com/watch?v=QzIeaX0v1C4">
+            </audio>
+        </ul>
+        <script>
+            var beepOne= $("#beep")[0];
+            $(".nav")
+            .mouseenter(function(){
+                beepOne.play();
+            })
+        </script>
     </body>
 </html>
