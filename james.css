@@ -1,11 +1,7 @@
-
 body {
     margin: auto 0;
     padding: auto 0;
-
     background-color: yellow;
-    
-
     background-color:#ffe646;
     /* background: rgb(235, 255, 12);
     background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%); */
@@ -48,10 +44,10 @@ heder img {
     justify-content: flex-start;
 }
 
-div {
+/* div {
 
     /* border: 2px solid yellow; */
-}
+
 
 .nothing {
     height: 100vh;
