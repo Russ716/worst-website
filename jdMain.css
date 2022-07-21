@@ -1,0 +1,22 @@
+#jdImg {
+    height: 400px;
+    margin: 20px;
+}
+
+#jdButton {
+    height: 75px;
+    width: 200px;
+    font-size: large;
+    margin: 20px;
+    text-align: center;
+}
+
+#jdDiv {
+    display: flex;
+    justify-content: center;
+}
+
+#jdImageDiv {
+    display: flex;
+    justify-content: center;
+}
