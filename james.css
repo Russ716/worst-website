@@ -1,11 +1,8 @@
-
+/* JAMES' CSS */
 body {
     margin: auto 0;
     padding: auto 0;
-
     background-color: yellow;
-    
-
     background-color:#ffe646;
     /* background: rgb(235, 255, 12);
     background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%); */
@@ -43,15 +40,15 @@ header {
     width: 900px;
 }
 
-heder img {
+header img {
     display: flex;
     justify-content: flex-start;
 }
 
-div {
+/* div {
 
     /* border: 2px solid yellow; */
-}
+
 
 .nothing {
     height: 100vh;
@@ -62,18 +59,13 @@ div {
     border: 2px solid yellow;
 }
 
-.james-scott-btn {
-        display: flex;
-        flex-direction: column;
-        transform: rotatex(10deg);
-        animation: rotateAngle 6s linear infinite;
-}
-
 
 footer h1 {
     font-size: 20rem;
     text-align: center;
 }
+
+/* RUSS' CSS */
 :root {
     --pink: #e91e63;
     --teal: #009688;
@@ -89,19 +81,7 @@ footer h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
 
 .btn {
     background-color: var(--teal);
