@@ -8,7 +8,7 @@ body {
     background: linear-gradient(0deg, rgba(186, 170, 12, 1) 6%, rgba(47, 157, 69, 1) 29%, rgba(179, 168, 37, 1) 46%, rgba(177, 110, 46, 1) 60%, rgba(174, 56, 153, 1) 77%, rgba(170, 165, 70, 1) 100%); */
 }
 
-.tag-line {
+.tag-line h2 {
     background-color: rgb(221, 255, 0);
     text-align: center;
     color: pink;
@@ -39,16 +39,6 @@ header {
     color: white;
     width: 900px;
 }
-
-header img {
-    display: flex;
-    justify-content: flex-start;
-}
-
-/* div {
-
-    /* border: 2px solid yellow; */
-
 
 .nothing {
     height: 100vh;
