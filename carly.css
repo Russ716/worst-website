@@ -11,8 +11,8 @@
 }
 
 button:hover {
-    bottom: 500px;
-    right: 500px;
+    bottom: 100px;
+    right: 100px;
     transition: 0s;
 }
 
