@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: auto 0;
     padding: auto 0;
@@ -191,4 +192,51 @@ button {
 footer h1 {
     font-size: 20rem;
     text-align: center;
+=======
+:root {
+    --pink: #e91e63;
+    --teal: #009688;
+    --purple: #9c27b0;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: var(--teal);
+    padding: .5em 1.5em;
+    font-size: 5.5em;
+    color: goldenrod;
+    outline: #9c27b0;
+    border: #e91e63;
+    border-radius: 1.8em 1.5em 1.7em 0.9;
+    cursor: crosshair;
+    transition: box-shadow .2s;
+
+}
+
+.btn:hover {
+    transform: translateY(-333px);
+    box-shadow: 0 55px 111px #9c27b0;
+>>>>>>> f33bfd41c79e4efc0e808446b18990da6ef3a5ba
 }
