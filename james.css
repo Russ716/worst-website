@@ -1,3 +1,4 @@
+/* JAMES' CSS */
 body {
     margin: auto 0;
     padding: auto 0;
@@ -63,6 +64,8 @@ footer h1 {
     font-size: 20rem;
     text-align: center;
 }
+
+/* RUSS' CSS */
 :root {
     --pink: #e91e63;
     --teal: #009688;
